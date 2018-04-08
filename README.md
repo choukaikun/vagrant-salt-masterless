@@ -1,6 +1,5 @@
-=======================
 vagrant-salt-masterless
-=======================
+-----------------------
 
 This repo is an example of how to use Salt masterless provisioning with Vagrant.  This setup will pull an OEL 7 box, install Salt, then install nginx.  You can use this VM as a source to package a new Vagrant box for local use since the full vagrant up takes over 3 minutes with the Salt install.  Create the base VM with Salt installed and then use that for further testing.  Here are the steps that worked:
 
